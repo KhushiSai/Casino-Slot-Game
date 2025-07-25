@@ -10,7 +10,8 @@ A full-stack slot machine game built with the MERN stack that allows users to re
 | Frontend   | React + Vite + Tailwind CSS   |
 | Backend    | Node.js + Express (JavaScript)|
 | Database   | MongoDB Atlas                 |
-| Auth       | JWT (JSON Web Tokens)         |     
+| Auth       | JWT (JSON Web Tokens)  
+| Hosted     |Vercal                         |
 
 
 
@@ -23,7 +24,7 @@ A full-stack slot machine game built with the MERN stack that allows users to re
 - 🧾 Transaction History (Win/Loss)
 - 🌐 REST API integration
 - ☁️ MongoDB Atlas for cloud DB
- - 📈 Clean UI with Tailwin
+ - 📈 Clean UI with Tailwind
 
 
 3. Installation Guide
