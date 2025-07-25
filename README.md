@@ -1,16 +1,30 @@
 
-# 🎰 Casino Slot Game 
+# 🎰 Casino Slot Game – Full Stack MERN App
 
-1. Project Title & Description
-A full stack slot game built using React, Node.js, Express, TypeScript, MongoDB,  and Tailwind CSS.
+A full-stack slot machine game built with the MERN stack that allows users to register, log in, spin a 3x3 slot machine, win or lose virtual currency, and track transaction history in real-time
 
-2. Tech Stack Used
 ## 🛠️ Tech Stack
 
-- Frontend: React (Vite), Tailwind CSS
-- Backend: Node.js, Express, TypeScript
-- Database: MongoDB Atlas
-- Auth: JWT (JSON Web Token)
+| Layer      | Tech                          |
+|------------|-------------------------------|
+| Frontend   | React + Vite + Tailwind CSS   |
+| Backend    | Node.js + Express (JavaScript)|
+| Database   | MongoDB Atlas                 |
+| Auth       | JWT (JSON Web Tokens)         |     
+
+
+
+## 🧩 Features
+
+- 👤 User Sign Up / Login
+- 🔐 JWT-based Authentication
+- 🎰 3x3 Slot Machine Logic
+- 💸 Virtual Wallet and Balance
+- 🧾 Transaction History (Win/Loss)
+- 🌐 REST API integration
+- ☁️ MongoDB Atlas for cloud DB
+ - 📈 Clean UI with Tailwin
+
 
 3. Installation Guide
 ## 📥 Installation
@@ -19,11 +33,17 @@ A full stack slot game built using React, Node.js, Express, TypeScript, MongoDB,
 ### 2. Setup and Run
     npm install
     Create .env file
-    npm run dev
-### 3.How to Use the Project**
+    .env example:
+    MONGO_URI=your_mongodb_uri
+    JWT_SECRET=your_secret_key
+    Port=5000
+    REDIS_URL=your_upstash_redis_url
 
-markdown
-## 🚀 Usage
+     npm run dev
+
+
+
+
 
 - Open browser: `http://localhost:port no`
 - Sign up or log in
